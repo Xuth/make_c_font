@@ -1,0 +1,5 @@
+mk_c_font.pl is a script to create simple fonts usable by small c programs, ideal for embedded environments.
+
+This uses ImageMagick to render each character of a font in a specific size, performs some additional processing and then saves the rasterization as a c file that can be included in a program.
+
+An example of its output is here (simple_font.c). Simple code to use the generated font files is easy_text.c and easy_text.h
